@@ -1,0 +1,90 @@
+.container {
+  max-width: 400px;
+  margin: 0 auto 0 auto;
+  box-shadow: 0px 0px 43px 17px rgb(148, 148, 148);
+  border-radius: 10px;
+  background-color: whitesmoke;
+  padding: 10px;
+}
+
+#display {
+  text-align: right;
+  height: 70px;
+  line-height: 70px;
+  margin-bottom: 10px;
+  padding: 16px 8px;
+  font-size: 90px;
+  border: 0.5px solid white;
+  border-bottom: 0;
+  background-color: rgb(78, 125, 255);
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 5px 5px;
+  column-gap: 10px;
+}
+
+.button {
+  border: 0.5px solid white;
+  line-height: 90px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  cursor: pointer;
+  color: black;
+  background-color: gray;
+  border-radius: 50%;
+}
+
+#equal {
+  background-color: rgb(78, 125, 255);
+  color: white;
+}
+
+#equal:hover {
+  background-color: rgb(5, 35, 117);
+  color: gold;
+  transition: 0.5s ease-in-out;
+}
+
+.button:hover {
+  background-color: rgb(54, 54, 54);
+  color: white;
+  transition: 0.5s ease-in-out;
+}
+
+body {
+  background-image: url("cacul.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  height: 500px;
+}
+
+section {
+  margin: 0;
+  padding: 0;
+}
+
+#animasi-bg {
+  height: 100vh;
+  width: 100%;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(17, 17, 17, 0.603);
+  height: auto;
+  width: 100vw;
+  padding-top: 4px;
+  color: #fff;
+}
